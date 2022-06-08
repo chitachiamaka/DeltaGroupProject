@@ -265,7 +265,7 @@ footer{
 .foot-btn:hover{
   transform: scale(1.1);
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:	1536px) {
   section {
     justify-content: center;
   }
@@ -308,7 +308,7 @@ img{
   
 }
 /* mobile view */
-@media screen and (max-width: 528px) {
+@media screen and (max-width: 600px) {
   section {
     justify-content: center;
     align-items: center;
