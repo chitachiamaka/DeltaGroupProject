@@ -16,6 +16,19 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+header{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header .h1{
+  margin-left: 0;
+  font-size: 1.5rem;
+  color: #090932;
+  
+}
 .img-side{
   background-image:linear-gradient(#fb5e8d, #a837f4);
   position: absolute;
@@ -225,45 +238,23 @@ align-items: center;
 .box .btn2:hover{
  transform: scale(1.5);
 }
-footer{
-  background-color: #11193e;
-  width: 100%;
-  height: 90px;
-
+footer .footer{
+  margin-left: 0;
 }
-.foot{
-  width: 100%;
-  height: 100px;
-  background-color: #0e1533 ;
-  justify-content: space-around;
-  align-items: center;
-}
-.foot ul{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.foot ul li{
-  align-items: center;
-  margin-top: 15px;
-  list-style: none;
-  color: #fff;
-  font-size: 1.8rem;
+.footer{
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
-.foot-btn{
-  margin-top: 30px;
-  background: linear-gradient(#fb605e,#a837f4);
-  border-radius: 30px;
-  padding: 12px 25px; 
-  color:#fff;
-  font-size: 17px;
-  font-weight: 800;
-  box-shadow: 0px 0px 7px #fb605e ;
-  transition: transform .4s;
-}
-.foot-btn:hover{
-  transform: scale(1.1);
+footer{
+  background-color: #090932;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 0;   
 }
 @media screen and (max-width:900px) {
   section {
@@ -278,7 +269,10 @@ footer{
           "item5 item6";
       margin: 5px;
   }
-
+img{
+  border-radius: 50%;
+  size: 100px;
+}
  
 
   
@@ -310,9 +304,51 @@ footer{
     justify-content: center;
     align-items: center;
   }
-  .skill .sk{
-    justify-content: center;
+  .skill {
+    margin-left: 100px;
+    margin-top: 70px;
+    padding-top: 30px;
     align-items: center;
+  
+    margin-top: 30px;
+  }
+  .container{
+   
+    margin-left: 100px;
+    margin-top: 70px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-left: 70px;
+
+  }
+  .btn1{
+    margin-left: 60px;
+    font-size: 12px;
+  }
+  .img{
+  border-radius: 45%;
+  left: 80px;
+  }
+  .img-box1{
+    position: absolute;
+    top: 250px;
+    left:80px;
+    width: 100px;
+    height: 150px;
+  }
+
+ .img-box2{
+      position: absolute;
+      top: 100px;
+      left:300px;
+      width: 100px;
+
   }
   .grid-container {
     grid-template-columns: 1fr;
@@ -324,5 +360,7 @@ footer{
       "item5"
       "item6";
   }
-
+  .grid-container {
+  margin-left: 60px;
+  }
 }
