@@ -1,4 +1,4 @@
-import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
 
 * {
   margin: 0;
@@ -12,28 +12,15 @@ import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=sw
 body {
   background-image: radial-gradient( #e26d6b, #df76ab );
   background-color: #ffffff;
-  height: 100vh;
+  /* height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
-}
-header{
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-header .h1{
-  margin-left: 0;
-  font-size: 1.5rem;
-  color: #090932;
-  
+  overflow-x: hidden; */
 }
 .img-side{
   background-image:linear-gradient(#fb5e8d, #a837f4);
   position: absolute;
   top: 120px;
-  right: 40px;
+  right: 25px;
   width: 255px;
   height: 145px;
   border-radius: 25px;
@@ -132,7 +119,7 @@ h1 {
 .img-box2{
   position: absolute;
   top:130px;
-  right: 200px;
+  right: 90px;
   background-color: #fff;
   border-radius: 20px;
   z-index: 2;
@@ -238,23 +225,45 @@ align-items: center;
 .box .btn2:hover{
  transform: scale(1.5);
 }
-footer .footer{
-  margin-left: 0;
-}
-.footer{
-  font-family: Arial, Helvetica, sans-serif;;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
-}
 footer{
-  background-color: #090932;
-  height: 100px;
+  background-color: #11193e;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  height: 90px;
+
+}
+.foot{
+  width: 100%;
+  height: 100px;
+  background-color: #0e1533 ;
+  justify-content: space-around;
   align-items: center;
-  margin: 150px 0;   
+}
+.foot ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot ul li{
+  align-items: center;
+  margin-top: 15px;
+  list-style: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.foot-btn{
+  margin-top: 30px;
+  background: linear-gradient(#fb605e,#a837f4);
+  border-radius: 30px;
+  padding: 12px 25px; 
+  color:#fff;
+  font-size: 17px;
+  font-weight: 800;
+  box-shadow: 0px 0px 7px #fb605e ;
+  transition: transform .4s;
+}
+.foot-btn:hover{
+  transform: scale(1.1);
 }
 @media screen and (max-width:900px) {
   section {
